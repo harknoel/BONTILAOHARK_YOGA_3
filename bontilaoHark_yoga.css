@@ -6,8 +6,10 @@ body {
 
 header {
     background-color: #9BC1C2;
-    background-image: url(images/lilyheader.jpg);
     height: 150px;
+    background-image: url(images/lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 h1 {
