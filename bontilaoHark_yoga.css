@@ -6,11 +6,13 @@ body {
 
 header {
     background-color: #9BC1C2;
-    text-align: center;
+    background-image: url(images/lilyheader.jpg);
+    height: 150px;
 }
 
 h1 {
-    line-height: 200%;
+    padding-top: 50px;
+    padding-left: 2em;
 }
 
 nav  {
