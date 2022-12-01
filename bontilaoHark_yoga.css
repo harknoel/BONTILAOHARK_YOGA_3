@@ -93,3 +93,7 @@ main {
 .clear {
     clear: both;
 }
+
+head, nav, main, footer {
+    display: block;
+}
