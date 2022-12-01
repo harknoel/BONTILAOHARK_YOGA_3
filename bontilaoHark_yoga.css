@@ -34,9 +34,22 @@ nav a {
     display: block;
     text-align: center;
     font-weight: bold;
-    border: outset 3px #CCCCCC;
+    border: 3px outset #CCCCCC;
     padding: 1em;
     margin-bottom: 1em;
+}
+
+nav a:link {
+    color: #3F2860;
+}
+
+nav a:visited {
+    color: #497777;
+}
+
+nav a:hover {
+    color: #A26100;
+    border: 3px inset #333333;
 }
 
 .studio {
