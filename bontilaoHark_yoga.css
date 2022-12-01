@@ -22,9 +22,11 @@ h1 {
 }
 
 nav  {
-    text-align: center;
     font-weight: bold;
     padding: 1em;
+    background-color: #F5F5F5;
+    float: left;
+    width: 160px;
 }
 
 nav a {
