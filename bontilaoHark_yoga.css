@@ -88,3 +88,8 @@ main {
 #hero {
     text-align: center;
 }
+
+.floatleft {
+    float: left;
+    margin-right: 4em;
+}
