@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+head, nav, main, footer {
+    display: block;
+}
+
 body {
     background-color: #3F2860;
     color:#3F2860; 
@@ -57,8 +61,11 @@ nav ul {
     padding-left: 0;
 }
 
-.studio {
-    font-style: italic;
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 170px;
+    padding-top: 1em;
 }
 
 footer {
@@ -78,11 +85,8 @@ footer {
     max-width: 1480px;
 }
 
-main {
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-left: 170px;
-    padding-top: 1em;
+.studio {
+    font-style: italic;
 }
 
 .floatleft {
@@ -92,8 +96,4 @@ main {
 
 .clear {
     clear: both;
-}
-
-head, nav, main, footer {
-    display: block;
 }
