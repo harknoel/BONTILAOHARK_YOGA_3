@@ -52,6 +52,11 @@ nav a:hover {
     border: 3px inset #333333;
 }
 
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .studio {
     font-style: italic;
 }
