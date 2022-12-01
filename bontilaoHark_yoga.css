@@ -85,10 +85,6 @@ main {
     padding-top: 1em;
 }
 
-#hero {
-    text-align: center;
-}
-
 .floatleft {
     float: left;
     margin-right: 4em;
