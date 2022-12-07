@@ -105,3 +105,66 @@ footer {
 #desktop {
     display: inline;
 }
+
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 0;
+    }
+
+    #wrapper {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        padding: 1px;
+    }
+
+    h1 {
+        padding: 1em;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        left: 2em;
+    }
+
+    nav a {
+        padding: 0.2em;
+        margin-left: 0.3em;
+        float: left;
+        width: 23%;
+    }
+
+    main {
+        padding: 2.5em 1em;
+        margin: 0;
+        font-size: 90%;
+        clear: both;
+    }
+
+    #hero {
+        width: 100%;
+        height: auto;
+    }
+
+    h2, h3, p, dl {
+        padding: 0 2em;
+    }
+
+    main ul {
+        margin-left: 2em;
+    }
+
+    .floatleft {
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    .clear {
+        padding-left: 2em;
+    }
+}
